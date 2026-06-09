@@ -9,3 +9,11 @@ jobs:
       steps:
         - name: Dí Hola
           run: echo "Hello World Cynthia Janeth Granados Estrada"
+          
+        - name: Fecha del Sistema
+          run:
+            echo "Bienvenidos a primer desafío"
+            echo "Donde fue creado mi primer WorkFlow"
+  
+        - name: FechaSistema
+          run: date
